@@ -1,6 +1,7 @@
 # 99 bottles of beer
 ## Instructions
-    Code a program that generates individual verses for the “99 bottles of beer” song given a verse number. A sample `song.txt` with the whole song is included for reference.
+Using the XCode project included in the repository, code a program that generates individual verses for the “99 bottles of beer” song given a verse number. A sample `song.txt` with the whole song is included for reference.
+
 i.e.
 `print(verse(99))`
 Prints:
