@@ -22,12 +22,6 @@ class BottlesTests: XCTestCase {
     func testVerse42() {}
 
 
-    //    input 42
-    //    test result is:
-    //    "42 bottles of beer on the wall, 42 bottles of beer.
-    //    Take one down and pass it around, 41 bottles of beer on the wall."
-    func testTwoVerses() {}
-
     //    inputs 66, 64
     //    test result is:
     //    "66 bottles of beer on the wall, 66 bottles of beer.
@@ -37,7 +31,13 @@ class BottlesTests: XCTestCase {
     //    Take one down and pass it around, 64 bottles of beer on the wall.
     //
     //    64 bottles of beer on the wall, 64 bottles of beer.
-    //    Take one down and pass it around, 63 bottles of beer on the wall."
+    //    Take one down and pass it around, 63 bottles of beer on the wall."s
+    func testTwoVerses() {}
+
+    //    input 0
+    //    test result is:
+    //    "No more bottles of beer on the wall, no more bottles of beer.
+    //    Go to the store and buy some more, 99 bottles of beer on the wall."
     func testVerse0() {}
 
     //    test result is equal to bottlesSong
